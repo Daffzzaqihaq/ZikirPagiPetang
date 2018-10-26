@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choseActivity"
+    android:background="@drawable/latarbelakang"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Silahkan Pilih Dzikir"
+        android:textColor="#fcfcfc"
+        android:textSize="30dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dibawah Ini"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:gravity="center"/>
+
+    <Button
+        android:onClick="btnKlikPagi"
+        android:id="@+id/btnDzikirPagi"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:background="@drawable/bg_mainbutton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Dzikir Pagi"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        />
+
+    <Button
+        android:onClick="btnKlikPetang"
+        android:id="@+id/btnDzikirPetang"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:background="@drawable/bg_mainbutton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Dzikir Petang"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+    
+
+</LinearLayout>
